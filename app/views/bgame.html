@@ -1,0 +1,39 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 ">
+        <a ng-click="refresh()" class="btn btn-primary btn-lg btn-block">NEW GAME</a>
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 btn-group btn-group-justified">
+        <a ng-show="size > 2" ng-click="sizeSet(false)" class="btn btn-lg btn-primary">DOWNSIZE</a>
+        <a ng-show="size === 2" class="btn btn-default">DOWNSIZE</a>
+
+        <a ng-show="size < 8" ng-click="sizeSet(true)" class="btn btn-lg btn-primary">UPSIZE</a>
+        <a ng-show="size === 8" class="btn btn-default">UPSIZE</a>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <hr />
+        <div ng-show="total" class="alert alert-warning text-center" role="alert"><h1>{{total}}</h1></div>
+        <div ng-show="!total" class="alert alert-success text-center" role="alert"><h1>GAME OVER</h1></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 table-responsive tib">
+        <table class="table table-no-border">
+            <tr ng-repeat="mrow in mahjong track by $index">
+                <td ng-repeat="melement in mrow track by $index">
+                    <button id="c-{{melement.x}}y{{melement.y}}" ng-show="melement.visible" class="btn btn-success btn-lg btn-block">{{("00" + melement.card).slice( - 2)}}</button>
+                    <button ng-show="!melement.visible && selectable" ng-click="mcheck(melement)" class="btn btn-default btn-lg btn-block">==</button>
+                    <button ng-show="!melement.visible && !selectable" class="btn btn-default btn-lg btn-block">==</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

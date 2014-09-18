@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>A</title>
+        <meta name="description" content="a">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body ng-app="agae">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <a class="navbar-brand" href="#">M</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#/bgame">Bgame</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+        <div class="container" ng-view></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <hr /><p class="text-right">&copy; 2014 by C</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="../bower_components/angular/angular.min.js"></script>
+        <script src="../bower_components/angular-route/angular-route.min.js"></script>
+
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+
+        <script src="scripts/app.js"></script>
+
+        <script src="scripts/controllers/bgame-cntr.js"></script>
+
+        <script src="scripts/libs/mahjong.js"></script>
+    </body>
+</html>

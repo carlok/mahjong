@@ -1,0 +1,25 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.table-no-border>thead>tr>th, 
+.table-no-border>tbody>tr>th, 
+.table-no-border>tfoot>tr>th, 
+.table-no-border>thead>tr>td, 
+.table-no-border>tbody>tr>td, 
+.table-no-border>tfoot>tr>td {
+    border-top: none; 
+}
+
+.btn-transparent {
+    background-color: transparent;
+    background: transparent;
+}
+
+.tib {
+    background: url("../resources/angularjs-1e309d3b4ffff229966951e35f889021.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

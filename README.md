@@ -1,4 +1,4 @@
 mahjong
 =======
 
-Basic Mahjong in AngularJS/Bootstrap 
+Basic Mahjong in AngularJS/Bootstrap.

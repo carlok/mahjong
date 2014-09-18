@@ -1,0 +1,27 @@
+{
+  "name": "mahjong",
+  "version": "0.1.0",
+  "homepage": "https://github.com/carlok/mahjong",
+  "authors": [
+    "Carlo Perassi <carlo.perassi@gmail.com>"
+  ],
+  "description": "Basic Mahjong in AngularJS/Bootstrap",
+  "keywords": [
+    "mahjong",
+    "angularjs"
+  ],
+  "license": "GPL3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.25",
+    "angular-route": "~1.2.25",
+    "jquery": "~2.1.1"
+  }
+}
