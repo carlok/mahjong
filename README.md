@@ -3,7 +3,7 @@ mahjong
 
 Basic Mahjong in AngularJS/Bootstrap.
 
-YT("igAhuSX6Nxk", print = TRUE)
+[![Alt Mahjong](http://img.youtube.com/vi/igAhuSX6Nxk/0.jpg)](http://www.youtube.com/watch?v=igAhuSX6Nxk)
 
 How to get it
 --
@@ -16,7 +16,3 @@ License
 --
 
 [GPLv3], although it is just a small project/exercise.
-
-[GPLv3]:https://gnu.org/licenses/gpl.html
-[Ionic]:http://ionicframework.com/
-[ngCordova]:http://ngcordova.com/
